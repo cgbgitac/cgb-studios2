@@ -862,6 +862,9 @@ ul.expert-development-listing > li::marker{
 .journey-title-card > p {
   margin-bottom: 4px;
 }
-p, li{
+/* p, li{
   color: rgb(92, 92, 92);
+} */
+.service-sub-heading{
+  line-height: 1.5;
 }
