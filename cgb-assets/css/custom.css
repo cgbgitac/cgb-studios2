@@ -202,7 +202,8 @@ h4 {
   .breadcrumb {
     margin-top: 0;
     position: relative;
-    height: 300px !important;
+    /* height: 300px !important; */
+    /* height: auto; */
   }
 }
 
@@ -522,7 +523,7 @@ textarea,.form-select {
 @media (min-width: 768px){
   .footer-form-section:before {
     content: '';
-    width: 42%;
+    width: 43%;
     position: absolute;
     z-index: -1;
     top: 0;
@@ -693,6 +694,24 @@ textarea,.form-select {
 }
 .space-bottom{
   padding-bottom: 80px;
+}
+
+@media screen and (max-width: 991px) {
+  .space-top{
+    padding-top: 60px;
+  }
+  .space-bottom{
+    padding-bottom: 60px;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  .space-top{
+    padding-top: 40px;
+  }
+  .space-bottom{
+    padding-bottom: 40px;
+  } 
 }
 .e-com-card{
   background-color: var(--e-global-color-1239117);
@@ -867,4 +886,11 @@ ul.expert-development-listing > li::marker{
 } */
 .service-sub-heading{
   line-height: 1.5;
+}
+
+ul.expert-development-listing >li:last-child {
+  padding-bottom: 0;
+}
+h2.fw-bolder{
+  
 }
