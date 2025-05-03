@@ -894,3 +894,9 @@ ul.expert-development-listing >li:last-child {
 h2.fw-bolder{
   
 }
+.main-color{
+  color: #733895
+}
+.every-industry-card > p {
+  margin-bottom: 0
+}
