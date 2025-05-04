@@ -851,6 +851,7 @@ ul.expert-development-listing > li::marker{
 }
 .tech-img >img {
   max-width: 46px;
+  max-height: 40px;
 }
 .technology-section span.tech-name {
   font-weight: 700;
@@ -869,11 +870,12 @@ ul.expert-development-listing > li::marker{
   gap: 30px;
 }
 .technology-section .nav-pills> button{
-  color: gray;
+  color: rgb(20, 20, 20);
   background-color: #efefef;
   border-radius: 0;
   padding: 15px 16px;
   text-align: left;
+  border-bottom: 1px solid #d4d4d4;
 }
 .technology-section .nav-pills .nav-link.active{
   background-color: #a100fe;
