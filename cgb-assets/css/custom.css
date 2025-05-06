@@ -854,7 +854,7 @@ ul.expert-development-listing > li::marker{
   max-height: 40px;
 }
 .technology-section span.tech-name {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 20px;
   color: #8c8c8c;
 }
@@ -866,14 +866,22 @@ ul.expert-development-listing > li::marker{
 }
 .tab-left-section {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+@media screen and (max-width:767px) {
+  .tab-left-section { 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
 }
 .technology-section .nav-pills> button{
   color: rgb(20, 20, 20);
-  background-color: #efefef;
+  background-color: #ffffff;
   border-radius: 0;
-  padding: 15px 16px;
+  padding: 18px 16px;
   text-align: left;
   border-bottom: 1px solid #d4d4d4;
 }
@@ -901,4 +909,7 @@ h2.fw-bolder{
 }
 .every-industry-card > p {
   margin-bottom: 0
+}
+.technology-section .nav-pills> button:last-child {
+  border-bottom: none;
 }
